@@ -1,0 +1,97 @@
+:root {
+    --azul: #4a90e2;
+    --azul-claro: #eaf4ff;
+    --branco: #ffffff;
+    --cinza: #555555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--azul-claro);
+    color: var(--cinza);
+}
+
+header {
+    background-color: var(--azul);
+    color: var(--branco);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    color: var(--azul);
+    border-bottom: 2px solid var(--azul);
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicos li {
+    background: var(--branco);
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.contato p {
+    margin: 0.3rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ac9;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background: var(--azul);
+    color: var(--branco);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
