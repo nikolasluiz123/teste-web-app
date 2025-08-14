@@ -1,7 +1,4 @@
-document.getElementById('form-contato').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const statusMsg = document.getElementById('mensagem-status');
-    statusMsg.textContent = "Mensagem enviada com sucesso! (simulação)";
-    statusMsg.classList.remove('hidden');
-    this.reset();
+document.querySelector('form[name="contato"]').addEventListener('submit', function() {
+    document.getElementById('mensagem-status').textContent = "Mensagem enviada! Obrigado.";
+    document.getElementById('mensagem-status').classList.remove('hidden');
 });
