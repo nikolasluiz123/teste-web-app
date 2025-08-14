@@ -37,10 +37,10 @@
         <p>📧 <a href="mailto:contato@maridodealuguel.com">contato@maridodealuguel.com</a></p>
         <p>📞 <a href="tel:+550000000000">(00) 00000-0000</a></p>
 
-        <form id="form-contato">
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu e-mail" required>
-            <textarea placeholder="Sua mensagem" required></textarea>
+        <form id="form-contato" netlify>
+            <input name="nome" type="text" placeholder="Seu nome" required>
+            <input name="email" type="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
             <button type="submit">Enviar</button>
         </form>
         <p id="mensagem-status" class="hidden"></p>
