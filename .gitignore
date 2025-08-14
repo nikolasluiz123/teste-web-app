@@ -1,0 +1,30 @@
+# IntelliJ IDEA project files
+.idea/
+# Except for these files, which can be shared
+!.idea/workspace.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/libraries/
+
+# Build artifacts and output directories
+target/
+out/
+build/
+
+# Local history and caches
+.idea/dataSources/
+.idea/dataSources.local/
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/caches/
+
+# IDE-specific settings that should remain local
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/shelf/
+.idea/tasks/
+.idea/httpRequests/
+
+# Custom settings for run/debug configurations
+.idea/runConfigurations/
